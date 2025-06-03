@@ -66,7 +66,7 @@ def login():
     acceso_concedido = False
 
     while not acceso_concedido:
-        usuario = input("Usuariooo: ").strip()
+        usuario = input("Usuario: ").strip()
         if not usuario:
             print("\033[91mEl nombre de usuario no puede estar vacío.\033[0m")
             continue
